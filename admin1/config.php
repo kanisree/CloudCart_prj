@@ -3,17 +3,17 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://localhost/opencart/admin1/');
-define('HTTP_CATALOG', 'http://localhost/opencart/');
+define('HTTP_SERVER', 'http://13.60.62.126/admin/');
+define('HTTP_CATALOG', 'http://13.60.62.126/admin/');
 
 // DIR
-define('DIR_OPENCART', 'C:/xampp/htdocs/opencart/');
-define('DIR_APPLICATION', DIR_OPENCART . 'admin1/');
+define('DIR_OPENCART', 'C://var/www/html//');
+define('DIR_APPLICATION', DIR_OPENCART . 'admin/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
 define('DIR_SYSTEM', DIR_OPENCART . 'system/');
 define('DIR_CATALOG', DIR_OPENCART . 'catalog/');
-define('DIR_STORAGE', 'C:/xampp/storage/');
+define('DIR_STORAGE', '/var/www/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/template/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -25,9 +25,9 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
+define('DB_HOSTNAME', 'appdb-instance.c7c0qqwicw6k.eu-north-1.rds.amazonaws.com');
+define('DB_USERNAME', 'admin');
+define('DB_PASSWORD', 'B7v52xh8p8cmUgX');
 define('DB_DATABASE', 'opencart');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
