@@ -7,7 +7,7 @@ define('HTTP_SERVER', 'http://13.60.62.126/admin/');
 define('HTTP_CATALOG', 'http://13.60.62.126/admin/');
 
 // DIR
-define('DIR_OPENCART', 'C://var/www/html//');
+define('DIR_OPENCART', '/var/www/html//');
 define('DIR_APPLICATION', DIR_OPENCART . 'admin/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
