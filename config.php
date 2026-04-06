@@ -23,7 +23,7 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', ' appdb-instance.c7c0qqwicw6k.eu-north-1.rds.amazonaws.com');
+define('DB_HOSTNAME', 'appdb-instance.c7c0qqwicw6k.eu-north-1.rds.amazonaws.com');
 define('DB_USERNAME', 'admin');
 define('DB_PASSWORD', 'B7v52xh8p8cmUgX');
 define('DB_DATABASE', 'opencart');
