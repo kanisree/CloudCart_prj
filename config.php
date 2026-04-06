@@ -6,7 +6,7 @@ define('APPLICATION', 'Catalog');
 define('HTTP_SERVER', 'http://16.171.200.56/');
 
 // DIR
-define('DIR_OPENCART', 'C:/var/www/html/');
+define('DIR_OPENCART', '/var/www/html/');
 define('DIR_APPLICATION', DIR_OPENCART . 'catalog/');
 define('DIR_EXTENSION', DIR_OPENCART . 'extension/');
 define('DIR_IMAGE', DIR_OPENCART . 'image/');
