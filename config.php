@@ -3,7 +3,7 @@
 define('APPLICATION', 'Catalog');
 
 // HTTP
-define('HTTP_SERVER', 'http://16.171.200.150/');
+define('HTTP_SERVER', 'http://13.51.197.240/');
 
 // DIR
 define('DIR_OPENCART', '/var/www/html/');
