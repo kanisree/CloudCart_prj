@@ -3,8 +3,8 @@
 define('APPLICATION', 'Admin');
 
 // HTTP
-define('HTTP_SERVER', 'http://13.60.62.126/admin/');
-define('HTTP_CATALOG', 'http://13.60.62.126/admin/');
+define('HTTP_SERVER', 'http://13.61.12.120/admin/');
+define('HTTP_CATALOG', 'http://13.61.12.120/admin/');
 
 // DIR
 define('DIR_OPENCART', '/var/www/html//');
